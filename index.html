@@ -11,7 +11,49 @@
 </head>
 
 <body>
-<h1>Introducción a Javascript</h1>
+    <main>
+        <header>
+            <h1>Introducción a Javascript</h1>
+        </header>
+
+        <section id="ingreso-datos" class="container"></section>
+        <h2>Formulario de Ingreso</h2>
+        <form id="Formulario">
+            <div class="row">
+                <div class="col-3">
+                    <label for="txt-rut" class="for-label">RUT</label>
+                    <input id="txt-rut" type="text" class="form-control">
+                </div>
+                <div class="col-3">
+                    <label for="txt-nombre" class="for-label">Nombre</label>
+                    <input id="txt-nombre" type="text" class="form-control">
+                </div>
+                <div class="col-3">
+                    <label for="txt-salario-hora" class="for-label">Salario Hora</label>
+                    <input id="txt-salario-hora" type="number" class="form-control">
+                </div>
+                <div class="col-3">
+                    <label for="txt-horas-trabajadas" class="for-label">Horas trabajadas</label>
+                    <input id="txt-horas-trabajadas" type="number" class="form-control">
+                </div>
+                <div class="col-3 mt-3">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Activo
+                        </label>
+                    </div>
+                </div>
+                <div class="col-3 mt-3">
+                    <button type="submit" class="btn btn-success">Registrar</button>
+                </div>
+            </div>
+        </form>
+        </section>
+        <section id="listado">
+            <h2>Lstado colaboradores</h2>
+        </section>
+    </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
