@@ -28,13 +28,12 @@ var colaboradores = [
         horas_trabajadas: 0
     }
 ]
-for (let index = 0; index < colaboradores.length; index++) {
-    var colaborador = colaboradores[index];
-    console.log("nombre",colaborador.nombre, typeof colaborador.nombre);
-    console.log("salario hora",colaborador["salario_hora"], typeof colaborador.salario_hora);
-    console.log("Activo",colaborador.activo, typeof colaborador.activols);
-    console.log("-------------------------")
-    
+// for (let index = 0; index < colaboradores.length; index++) {
+//     var colaborador = colaboradores[index];
+//     console.log("nombre",colaborador.nombre, typeof colaborador.nombre);
+//     console.log("salario hora",colaborador["salario_hora"], typeof colaborador.salario_hora);
+//     console.log("Activo",colaborador.activo, typeof colaborador.activols);
+//     console.log("-------------------------")
 
-}
+// }
 
